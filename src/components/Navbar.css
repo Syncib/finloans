@@ -1,0 +1,22 @@
+.navlinks {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.nav-cont{
+min-width: 80% !important;
+}
+
+
+.navbar.scrolled {
+  background-color: rgba(19, 50, 90, 0.856) !important;
+  padding-top: 1rem;
+  transition: background-color 0.5s, padding-top 0.5s;
+}
+
+.custom-position {
+  position: fixed !important;
+  width: 100%;
+  z-index: 999;
+}
