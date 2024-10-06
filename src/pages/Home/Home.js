@@ -3,27 +3,51 @@ import Slider from "react-slick/lib/slider";
 import Navbar from "../../components/Navbar";
 import ApplyCard from "../../components/ApplyCard";
 import AccordionBar from "../../components/Accordionbar";
+import Quote from "../../components/Quote";
 import service1 from "../../assets/svg_icon/service_1.png";
 import service2 from "../../assets/svg_icon/service_2.png";
 import service3 from "../../assets/svg_icon/service_3.png";
 import chooseus from "../../assets/about/about.png";
 import faq from "../../assets/faq/faq.png";
+import brand1 from "../../assets/brand/1.png";
+import brand2 from "../../assets/brand/2.png";
+import brand3 from "../../assets/brand/3.png";
+import brand4 from "../../assets/brand/4.png";
+import brand5 from "../../assets/brand/5.png";
 import "./Home.css";
-import Quote from "../../components/Quote";
 const Home = () => {
-  
   let settings = {
-    dots: true,
+    dots: false,
     infinite: false,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
     initialSlide: 0,
+    swipeToSlide: true,
     responsive: [
       {
-        breakpoint: 480,
+        breakpoint: 980,
         settings: {
           slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
+
+  let settingsBrand = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    initialSlide: 0,
+    swipeToSlide: true,
+    responsive: [
+      {
+        breakpoint: 980,
+        settings: {
+          slidesToShow: 2,
           slidesToScroll: 1,
         },
       },
@@ -199,7 +223,14 @@ const Home = () => {
       <div className="review-section container">
         <div className="slider-container">
           <Slider {...settings}>
-            <Quote/>
+            <Quote />
+          </Slider>
+        </div>
+        <div className="slider-container p-lg-5">
+          <Slider {...settingsBrand}>
+            {[brand1, brand2, brand3, brand4, brand5].map((brand) => (
+              <img src={brand} />
+            ))}
           </Slider>
         </div>
       </div>
