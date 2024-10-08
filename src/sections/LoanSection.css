@@ -1,0 +1,9 @@
+.loan-section{
+    padding: 15vh 0;
+    background-image: url('../assets/banner/loan.png');
+    background-size: cover;
+    background-color: rgba(45, 45, 78, 0.459);
+    background-blend-mode: multiply;
+  }
+  
+  

@@ -1,0 +1,39 @@
+.footer-p p {
+  margin: 0;
+}
+.footico {
+  padding: 0.7rem;
+  color: lightgray;
+}
+.footico:hover {
+  background-color: rgb(148, 148, 255);
+  color: white;
+  cursor: pointer;
+}
+
+.footer-content p {
+  font-size: 13px;
+  color: #7a838b;
+}
+
+.footer-content input::placeholder {
+  font-size: 13px;
+}
+
+.footsub {
+  font-size: 13px !important;
+  right: 10px;
+  bottom: 14%;
+}
+
+.footinp {
+  border-style: none !important;
+}
+.footinp:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.footer-section{
+    padding: 15vh 1vh 0;
+}

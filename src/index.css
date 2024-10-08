@@ -6,3 +6,40 @@ body {
 .white{
   color: white !important;
 }
+
+.offertxt{
+  padding-bottom: 3rem;
+}
+.offer-title{
+  font-size: max(30px,44px);
+  font-weight: 400;
+}
+.olf,.bullet{
+  width: 10px;
+  height: 10px;
+}
+.intrate{
+  margin: 0;
+}
+
+.bullet{
+background-color: rgb(128, 146, 228);
+}
+
+.pay-para {
+  color: #7a838b;
+}
+
+.pay-head {
+  font-size: max(24px, 3vh);
+  font-weight: 400;
+}
+
+@media screen and (max-width: 992px) {
+  .pay-form {
+    width: 95% !important;
+  }
+  .offer-section,.work-section,.choose-section,.faq-section{
+    padding: 5vh 1vh 0;
+  }
+}

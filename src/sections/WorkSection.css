@@ -1,0 +1,19 @@
+.work-section{
+    background-color: #F5FBFF;
+    padding: 15vh 0;
+  }
+  .workno{
+    background-color: rgb(232, 232, 255);
+    width: 4.5rem;
+    height: 4.5rem;
+    color: rgb(124, 124, 214);
+    font-weight: 700;
+  }
+  
+  .work-subhead{
+    font-weight: 400;
+    font-size: 24px;
+    color: #040E27;
+  }
+
+  

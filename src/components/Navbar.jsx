@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
+import { FaChevronDown } from "react-icons/fa";
 import "./Navbar.css";
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -31,21 +32,33 @@ const Navbar = () => {
           <img src={logo} alt="Logo" />
         </Link>
         <div className="navbar-nav d-none d-lg-flex gap-4 gap-xxl-5 navlinks align-items-center">
-          <Link className="nav-link white" to="/home">
+          <Link className="nav-link white" to="/">
             Home
           </Link>
-          <Link className="nav-link white" to="/home">
+          <Link className="nav-link white" to="/loan">
             Loan
           </Link>
-          <Link className="nav-link white" to="/home">
+          <Link className="nav-link white" to="/about">
             About
           </Link>
-          <Link className="nav-link white" to="/home">
-            Pages
-          </Link>
-          <Link className="nav-link white" to="/home">
-            Blog
-          </Link>
+          <div className="position-relative pages">
+            <Link className="nav-link white" to="/home">
+              Pages<FaChevronDown />
+            </Link>
+            <div className="position-absolute bg-white inpage text-nowrap">
+              <h6>Apply Loan</h6>
+              <h6>Elements</h6>
+            </div>
+          </div>
+          <div className="position-relative pages">
+            <Link className="nav-link white" to="/home">
+              Blog<FaChevronDown />
+            </Link>
+            <div className="position-absolute bg-white inpage text-nowrap">
+              <h6>Apply Loan</h6>
+              <h6>Elements</h6>
+            </div>
+          </div>
           <Link className="nav-link white" to="/home">
             FAQ
           </Link>
@@ -57,7 +70,7 @@ const Navbar = () => {
           <div className="nav-link d-none d-xxl-inline text-nowrap white">
             10 673 567 367
           </div>
-          <button className="btn btn-outline-info text-nowrap py-2 px-4 ms-3">
+          <button className="btn btn-outline-info text-nowrap py-2 px-4 ms-3 navapply">
             Apply for a Loan
           </button>
         </div>
