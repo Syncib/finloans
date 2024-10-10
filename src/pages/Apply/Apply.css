@@ -1,0 +1,39 @@
+.apply-div {
+  background-image: url("../../assets/banner/bradcam3.png");
+  background-size: cover;
+  background-position: center;
+  min-height: fit-content;
+  background-color: rgba(45, 45, 78, 0.816);
+  background-blend-mode: multiply;
+}
+
+.applyloan {
+  padding: 20vh 1vh;
+}
+
+.apply-form {
+  margin: 5% auto;
+}
+.form-frame {
+  width: max(380px, 60%);
+  margin: auto;
+}
+.applyinp {
+  border-style: none !important;
+}
+.applyinp:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.datemonth{
+    top:25%;
+    left:4%;
+
+}
+
+.hero-title {
+  font-size: max(30px, 3vw);
+  line-height: 1.4;
+  font-weight: 400;
+}

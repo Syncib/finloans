@@ -46,8 +46,8 @@ const Navbar = () => {
               Pages<FaChevronDown />
             </Link>
             <div className="position-absolute bg-white inpage text-nowrap">
-              <h6>Apply Loan</h6>
-              <h6>Elements</h6>
+              <Link className="nav-link" to="/apply">Apply Loan</Link>
+              <Link className="nav-link" to="/elements">Elements</Link>
             </div>
           </div>
           <div className="position-relative pages">
@@ -55,8 +55,8 @@ const Navbar = () => {
               Blog<FaChevronDown />
             </Link>
             <div className="position-absolute bg-white inpage text-nowrap">
-              <h6>Apply Loan</h6>
-              <h6>Elements</h6>
+            <Link className="nav-link" to="/blog">Blog</Link>
+            <Link className="nav-link" to="/single-blog">Single Blog</Link>
             </div>
           </div>
           <Link className="nav-link white" to="/home">

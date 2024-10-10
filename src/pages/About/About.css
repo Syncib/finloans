@@ -1,0 +1,33 @@
+.about-div {
+    background-image: url("../../assets/banner/bradcam2.png");
+    background-size: cover;
+    background-position: center;
+    min-height: fit-content;
+    background-color: rgba(45, 45, 78, 0.816);
+    background-blend-mode: multiply;
+  }
+  
+  .aboutloan {
+    padding: 20vh 1vh;
+  }
+  
+  .hero-title {
+    font-size: max(30px, 3vw);
+    line-height: 1.4;
+    font-weight: 400;
+  }
+  
+  
+  .offer-section,.choose-section{
+    padding: 15vh 1vh 0;
+  }
+  .choose-section{
+    padding-bottom: 15vh;
+  }
+  
+  .accordion-head{
+    font-weight:400;
+    font-size: 18px;
+  }
+  
+  

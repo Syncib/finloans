@@ -6,6 +6,12 @@ body {
 .white{
   color: white !important;
 }
+.lightpurple{
+  color:rgb(249, 249, 255) !important
+}
+.bg-lightpurple{
+  background-color:rgb(249, 249, 255) !important
+}
 
 .offertxt{
   padding-bottom: 3rem;
