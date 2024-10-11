@@ -387,9 +387,181 @@ const Elements = () => {
             </ol>
           </div>
         </div>
-        <div className="row">
-          <div className="col">
-            
+        <hr className="my-5" />
+        <div className="row justify-content-center">
+          <div className="col-6">
+            <h3 className="pay-subhead mb-5">Form Element</h3>
+            <form>
+              <input
+                type="text"
+                className="form-control mb-3"
+                placeholder="First Name"
+              />
+              <input
+                type="text"
+                className="form-control mb-3"
+                placeholder="Last Name"
+              />
+              <input
+                type="text"
+                className="form-control mb-3"
+                placeholder="Last Name"
+              />
+              <input
+                type="text"
+                className="form-control mb-3"
+                placeholder="Email Address"
+              />
+              <input
+                type="text"
+                className="form-control mb-3"
+                placeholder="City"
+              />
+              <input
+                type="text"
+                className="form-control mb-3"
+                placeholder="Country"
+              />
+              <input
+                type="text"
+                className="form-control mb-3"
+                placeholder="Message"
+              />
+              <input
+                type="text"
+                className="form-control mb-3"
+                placeholder="Primary color"
+              />
+              <input
+                type="text"
+                className="form-control mb-3"
+                placeholder="Accent color"
+              />
+              <input
+                type="text"
+                className="form-control mb-3"
+                placeholder="Secondary color"
+              />
+            </form>
+          </div>
+          <div className="col-4">
+            <h3 className="pay-subhead mb-4">Switches</h3>
+            <form>
+              <div>
+                <div class="form-check form-switch">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    role="switch"
+                    id="flexSwitchCheckDefault"
+                  />
+                  <label class="form-check-label" for="flexSwitchCheckDefault">
+                    Default switch checkbox input
+                  </label>
+                </div>
+                <div class="form-check form-switch">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    role="switch"
+                    id="flexSwitchCheckChecked"
+                    checked
+                  />
+                  <label class="form-check-label" for="flexSwitchCheckChecked">
+                    Checked switch checkbox input
+                  </label>
+                </div>
+                <div class="form-check form-switch">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    role="switch"
+                    id="flexSwitchCheckDisabled"
+                    disabled
+                  />
+                  <label class="form-check-label" for="flexSwitchCheckDisabled">
+                    Disabled switch checkbox input
+                  </label>
+                </div>
+                <div class="form-check form-switch">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    role="switch"
+                    id="flexSwitchCheckCheckedDisabled"
+                    checked
+                    disabled
+                  />
+                  <label
+                    class="form-check-label"
+                    for="flexSwitchCheckCheckedDisabled"
+                  >
+                    Disabled checked switch checkbox input
+                  </label>
+                </div>
+              </div>
+              <div>
+                <h3 className="pay-subhead my-4">Selectboxes</h3>
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>Open this select menu</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+              <div>
+                <h3 className="pay-subhead my-4">Checkboxes</h3>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckDefault"
+                  />
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Default checkbox
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckChecked"
+                    checked
+                  />
+                  <label class="form-check-label" for="flexCheckChecked">
+                    Checked checkbox
+                  </label>
+                </div>
+              </div>
+              <div>
+                <h3 className="pay-subhead my-4">Radios</h3>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckDefault"
+                  />
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Default checkbox
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckChecked"
+                    checked
+                  />
+                  <label class="form-check-label" for="flexCheckChecked">
+                    Checked checkbox
+                  </label>
+                </div>
+              </div>
+            </form>
           </div>
         </div>
       </div>

@@ -2,7 +2,9 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
 import { FaChevronDown } from "react-icons/fa";
+
 import "./Navbar.css";
+
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -15,7 +17,6 @@ const Navbar = () => {
         setIsScrolled(false);
       }
     };
-
     window.addEventListener("scroll", handleScroll);
     return () => {
       window.removeEventListener("scroll", handleScroll);
@@ -43,20 +44,30 @@ const Navbar = () => {
           </Link>
           <div className="position-relative pages">
             <Link className="nav-link white" to="/home">
-              Pages<FaChevronDown />
+              Pages
+              <FaChevronDown />
             </Link>
             <div className="position-absolute bg-white inpage text-nowrap">
-              <Link className="nav-link" to="/apply">Apply Loan</Link>
-              <Link className="nav-link" to="/elements">Elements</Link>
+              <Link className="nav-link" to="/apply">
+                Apply Loan
+              </Link>
+              <Link className="nav-link" to="/elements">
+                Elements
+              </Link>
             </div>
           </div>
           <div className="position-relative pages">
             <Link className="nav-link white" to="/home">
-              Blog<FaChevronDown />
+              Blog
+              <FaChevronDown />
             </Link>
             <div className="position-absolute bg-white inpage text-nowrap">
-            <Link className="nav-link" to="/blog">Blog</Link>
-            <Link className="nav-link" to="/single-blog">Single Blog</Link>
+              <Link className="nav-link" to="/blog">
+                Blog
+              </Link>
+              <Link className="nav-link" to="/single-blog">
+                Single Blog
+              </Link>
             </div>
           </div>
           <Link className="nav-link white" to="/home">
@@ -75,6 +86,7 @@ const Navbar = () => {
           </button>
         </div>
       </div>
+      <div></div>
     </nav>
   );
 };

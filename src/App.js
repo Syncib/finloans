@@ -6,6 +6,7 @@ import "aos/dist/aos.css"
 import "./App.css";
 import Apply from "./pages/Apply/Apply";
 import Elements from "./pages/Elements/Elements";
+import Blog from "./pages/Blog/Blog";
 
 function App() {
   return <>
@@ -15,6 +16,7 @@ function App() {
     <Route path="/about" element={<About />} />
     <Route path="/apply" element={<Apply />} />
     <Route path="/elements" element={<Elements />} />
+    <Route path="/blog" element={<Blog />} />
   </Routes>
   </BrowserRouter>
   </>;

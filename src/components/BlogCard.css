@@ -1,0 +1,84 @@
+.blog-card {
+    border: 1px solid #eaeaea;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .blog-card:hover {
+    box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-image {
+    position: relative;
+  }
+  
+  .card-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .card-date {
+    position: absolute;
+    top: 90%;
+    left: 10px;
+    background-color: #1fc5c3;
+    padding: 10px;
+    border-radius: 4px;
+    color: #fff;
+    text-align: center;
+    width: fit-content;
+  }
+  
+  .card-date .date-day {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .card-date .date-month {
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+  
+  .card-content {
+    padding: 15px;
+  }
+  
+  .card-content h3 {
+    font-size: max(18px,2.5vh);
+    color: #333;
+    font-weight: 600;
+    margin-top: 5%;
+    margin-bottom: 8px;
+  }
+  
+  .card-content p {
+    font-size: 14px;
+    color: #777;
+    margin: 10px 0 0 0;
+  }
+  
+  .card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .card-footer .card-category {
+    font-size: 12px;
+    color: #999;
+  }
+  
+  .card-footer .card-comments {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: #999;
+  }
+  
+  .card-footer .card-comments svg {
+    margin-right: 5px;
+  }
+  
