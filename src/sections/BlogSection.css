@@ -1,0 +1,54 @@
+.comsec {
+  font-size: 14px;
+}
+
+.parafocus {
+  background-color: rgba(130, 139, 178, 0.1);
+  padding: 2rem;
+}
+
+.innerpara {
+  background-color: white;
+  padding: 2rem;
+  border-left: 2px solid darkgray;
+}
+.switchcont{
+  position: relative;
+}
+.switchcont::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0; 
+  background-color: black;
+  transition: opacity 0.5s ease;
+}
+.switchcont:hover::before{
+    opacity: 0.5;
+}
+
+.switchcont:hover .arrow {
+  opacity: 1;
+  transition: opacity 1s ease;
+}
+.arrow {
+  position: absolute;
+  color: white;
+  top: 20%;
+  right: 20%;
+  opacity: 0;
+  transition: opacity 1s ease;
+  z-index: 2;
+}
+.arrow:hover {
+  cursor: pointer;
+}
+.author-frame{
+    background: #fbf9ff;
+}
+.author-frame h5{
+    font-size: 1.1em;
+}

@@ -45,3 +45,41 @@
 .navapply:hover{
 color: white !important;
 }
+
+.mobile-nav{
+  display: flex;
+  position: relative;
+  top:15%;
+  background-color: darkslategray;
+}
+.menu-button{
+  background-color: black;
+  color: white;
+  padding: 0.2rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  cursor: pointer;
+}
+
+.menu-closed,.pages-closed,.blog-closed{
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s ease;
+}
+.menu-opened{
+  height: 350px;
+  overflow: hidden;
+  transition: height 0.5s ease;
+}
+.menu-opened:has(.pages-closed){
+  height: 280px;
+}
+.menu-opened:has(.blog-closed){
+  height: 280px;
+}
+.pages-opened,.blog-opened{
+  height: 50px;
+  overflow: hidden;
+  transition: height 0.5s ease;
+}

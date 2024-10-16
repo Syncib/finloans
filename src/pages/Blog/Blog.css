@@ -1,34 +1,38 @@
 .blog-div {
-    background-image: url("../../assets/banner/bradcam3.png");
-    background-size: cover;
-    background-position: center;
-    min-height: fit-content;
-    background-color: rgba(45, 45, 78, 0.816);
-    background-blend-mode: multiply;
-  }
+  background-image: url("../../assets/banner/bradcam3.png");
+  background-size: cover;
+  background-position: center;
+  min-height: fit-content;
+  height: 60vh;
+  background-color: rgba(45, 45, 78, 0.816);
+  background-blend-mode: multiply;
+}
+.blog {
+  padding: 12vh 1vh;
+}
+
+.search-frame input {
+  border: none;
+  padding: 0.8rem;
+}
+.search-frame input:focus {
+  outline: none;
+  box-shadow: none;
+}
+.input-group-text.custom-set {
+  background-color: white;
+  border: none;
+}
+.searchbtn {
+  padding: 0.7rem !important;
+  border-radius: 0 !important;
+}
+.recentdate {
+  font-size: 0.9rem;
+  margin: 0;
+}
+@media screen and (max-width: 992px) {
   .blog {
-    padding: 20vh 1vh;
+    padding: 1vh 1vh;
   }
-  .search-frame,.category-frame,.recentpost-frame{
-    background: #fbf9ff;
-  }
-  .search-frame input{
-    border: none;
-    padding: 0.8rem;
-  }
-  .search-frame input:focus{
-    outline: none;
-    box-shadow: none;
-  }
-  .input-group-text.custom-set{
-    background-color: white;
-    border: none;
-  }
-  .searchbtn{
-    padding: 0.7rem !important;
-    border-radius: 0 !important;
-  }
-  .recentdate{
-    font-size: 0.9rem;
-    margin: 0;
-  }
+}

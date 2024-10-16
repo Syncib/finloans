@@ -1,0 +1,39 @@
+.search-frame,
+.category-frame,
+.recentpost-frame,
+.tagclouds-frame,
+.instafeed-frame,.newsletter-frame {
+  background: #fbf9ff;
+}
+.search-frame input {
+  border: none;
+  padding: 0.8rem;
+}
+.search-frame input:focus {
+  outline: none;
+  box-shadow: none;
+}
+.input-group-text.custom-set {
+  background-color: white;
+  border: none;
+}
+.searchbtn {
+  padding: 0.7rem !important;
+  border-radius: 0 !important;
+}
+.recentdate {
+  font-size: 0.9rem;
+  margin: 0;
+}
+.tagcloud {
+  background-color: white;
+  padding: 0.2rem 1rem;
+  border: 1px solid #eeeeee;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  font-size: small;
+}
+.tagcloud:hover {
+  background-color: #6cd1b3;
+  cursor: pointer;
+  color: white;
+}

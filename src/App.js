@@ -7,6 +7,8 @@ import "./App.css";
 import Apply from "./pages/Apply/Apply";
 import Elements from "./pages/Elements/Elements";
 import Blog from "./pages/Blog/Blog";
+import SingleBlog from "./pages/SingleBlog/SingleBlog";
+import Contact from "./pages/Contact/Contact";
 
 function App() {
   return <>
@@ -15,8 +17,10 @@ function App() {
     <Route path="/" element={<Home />} />
     <Route path="/about" element={<About />} />
     <Route path="/apply" element={<Apply />} />
+    <Route path="/contact" element={<Contact />} />
     <Route path="/elements" element={<Elements />} />
     <Route path="/blog" element={<Blog />} />
+    <Route path="/single-blog" element={<SingleBlog />} />
   </Routes>
   </BrowserRouter>
   </>;
